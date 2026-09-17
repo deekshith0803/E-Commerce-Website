@@ -148,5 +148,4 @@ npm run dev
 
 ```
 
-**Important:** In your GitHub `README.md`, don't add the extra `**` or `\` characters. The version above is already proper Markdown.
-```
+
