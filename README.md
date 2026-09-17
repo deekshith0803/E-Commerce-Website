@@ -144,8 +144,3 @@ npm run dev
 * Order management
 * User order history
 * Responsive mobile navigation
-
-
-```
-
-
