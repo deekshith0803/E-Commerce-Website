@@ -1,3 +1,6 @@
+Yes — the formatting got messed up because the Markdown characters were escaped. This is the **clean version** you should paste directly into `README.md`:
+
+````markdown
 # E-Commerce Website
 
 A responsive e-commerce website built using React.js with separate user and admin experiences. The project includes authentication, product management, shopping cart functionality, and profile management.
@@ -71,9 +74,7 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
-```
-
-```
+````
 
 ## 🔐 Authentication
 
@@ -81,16 +82,20 @@ Authentication is implemented using Redux Toolkit and LocalStorage.
 
 Registered users are stored in:
 
+```text
 users
+```
 
 The currently logged-in user is stored in:
 
+```text
 loggedUser
+```
 
 Role-based protected routes are used for:
 
-user
-admin
+* User
+* Admin
 
 ## 🛒 Cart Management
 
@@ -98,35 +103,50 @@ The shopping cart is managed using Redux Toolkit.
 
 Cart data is stored in LocalStorage so products remain in the cart after refreshing the browser.
 
+```text
 cart
+```
 
 ## ⚙️ Installation
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/YOUR_USERNAME/react-ecommerce.git
+```
 
 ### 2. Go to the project folder
 
+```bash
 cd react-ecommerce
+```
 
 ### 3. Install dependencies
 
+```bash
 npm install
+```
 
 ### 4. Start the development server
 
+```bash
 npm run dev
+```
 
 ## 📌 Future Improvements
 
-- Backend API integration
-- MongoDB database
-- JWT authentication
-- Online payment integration
-- Product search and filtering
-- Product categories
-- Order management
-- User order history
-- Responsive mobile navigation
+* Backend API integration
+* MongoDB database
+* JWT authentication
+* Online payment integration
+* Product search and filtering
+* Product categories
+* Order management
+* User order history
+* Responsive mobile navigation
+
+
+```
+
+**Important:** In your GitHub `README.md`, don't add the extra `**` or `\` characters. The version above is already proper Markdown.
 ```
